@@ -36,4 +36,10 @@ int main()
     {
         cout << i;
     }
+
+    int numbers[] = {1,2,3,5,4};
+    for (int number: numbers)
+    {
+        cout << number;
+    }
 }
