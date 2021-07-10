@@ -1,23 +1,23 @@
 #include <iostream>
 using namespace std;
 
-int main()
+void testFunc(string cout1, string cout2, string result1, string result2)
 {
     int age, weight;
     string resultAge, resultWeight;
 
-    cout << "Введите ваш возраст:" << "\n";
+    cout << cout1 << "\n";
     cin >> age;
-    cout << "Введите ваш вес: " << "\n";
+    cout << cout2 << "\n";
     cin >> weight;
 
     if (age > 18)
     {
-        resultAge = "Вы совершеннолетний.";
+        resultAge = result1;
     }
     if (weight > 70)
     {
-        resultWeight = "Вы буржуй.";
+        resultWeight = result2;
     }
 
 
@@ -25,6 +25,16 @@ int main()
     cout << "Ваш вес: " << weight << "\n";;
     cout << resultAge << "\n";
     cout << resultWeight << "\n";
+}
+
+int main()
+{
+    testFunc(
+            "Введите ваш возраст: ",
+            "Введите ваш вес: ",
+            "Совершеннолетний",
+            "Буржуй"
+            );
 
     int i = 1;
     while (++i < 10)
