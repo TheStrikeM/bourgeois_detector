@@ -25,4 +25,11 @@ int main()
     cout << "Ваш вес: " << weight << "\n";;
     cout << resultAge << "\n";
     cout << resultWeight << "\n";
+
+    int i = 1;
+    while (i < 10)
+    {
+        cout << i << " * " << i << " = " << i+i << "\n";
+        i++;
+    }
 }
