@@ -1,0 +1,3 @@
+/home/thestrikem/CLionProjects/frist-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/thestrikem/CLionProjects/frist-project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/thestrikem/CLionProjects/frist-project/cmake-build-debug/CMakeFiles/frist_project.dir
